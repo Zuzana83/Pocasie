@@ -2,7 +2,7 @@
 const tbodyEl = document.getElementById("tbody");
 const showBtn = document.getElementById("show");
 
-const API_URL = "https://meta-weather.now.sh/api/location/44418";
+const API_URL = "https://www.metaweather.com/api/location/44418";
 
 getConditions(`${API_URL}/2017/4/20/`);
 
